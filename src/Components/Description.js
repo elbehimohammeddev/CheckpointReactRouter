@@ -8,9 +8,9 @@ const Description = (props) => {
         <div>
           
             <Search/>
-            <Link to="/"><img src={back} className="image" style={{width:"100px"}} alt="gfdg"/></Link> 
-            <h1 className="titleT">{props.location.Props.name}</h1>
-            <p className="descT">{props.location.Props.description}</p>
+            <Link to="/"><img src={back} className="image" style={{width:"100px"}} alt=""/></Link> 
+            <h1>{props.location.Props.name}</h1>
+            <p>{props.location.Props.description}</p>
             </div>
     )
 }

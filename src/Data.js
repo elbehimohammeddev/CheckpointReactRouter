@@ -7,7 +7,7 @@ export  const movieData = [
         description:"Tandis qu'il cherche à obtenir justice pour le meurtre de sa femme enceinte, John Kelly découvre une conspiration internationale, qui menace d'entraîner les États-Unis et la Russie dans une guerre totale. L'ancien marine des forces spéciales américaines va combattre ses ennemis sans aucun remords et révéler les puissants derrière le complot.",
         type:"Action",
         rating:4,
-        url:"",
+        url:"https://youtu.be/PqjEEVYElmo",
     },
     {
         id:Math.random(),
@@ -17,7 +17,7 @@ export  const movieData = [
         description:"Le monde est stupéfait lorsqu'un groupe de voyageurs arrive du futur pour délivrer un message urgent : dans 30 ans, l'Humanité va perdre une guerre contre des extraterrestres. Le seul moyen de survivre à cette attaque extraterrestre est de faire transporter des soldats et civils du monde d'aujourd'hui dans le futur pour lutter contre cette invasion. Un professeur fait équipe avec une brillante scientifique et son père pour réécrire l'avenir de la planète.",
         type:"Guerre",
         rating:5,
-        url:"",
+        url:"https://youtu.be/WOx8TZFvfsw",
     },
     {
         id:Math.random(),
@@ -27,6 +27,6 @@ export  const movieData = [
         description:"Suite à une attaque de zombies à Las Vegas, la ville a été mise en quarantaine. Mais le patron d'un casino, Bly Tanaka, y voit une opportunité et envoie une équipe d'experts dans la zone isolée pour réaliser le plus grand braquage de l'histoire, et voler 200 millions de dollars. Alors que le gouvernement prévoit de raser la ville avec une frappe nucléaire, une course contre la montre est entamée et les zombies résidents réservent quelques surprises aux brigands.",
         type:"Science Fiction",
         rating:3,
-        url:"",
+        url:"https://youtu.be/tI1JGPhYBS8",
     },
 ]

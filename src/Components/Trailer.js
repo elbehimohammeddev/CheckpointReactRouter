@@ -11,8 +11,8 @@ function Trailer(props) {
            
         <Search/>
         <Link to="/"><img src={back} style={{width:"100px"}} className="image" alt="vdf"/></Link> 
-        <h1 className="titleT">{props.location.Props.name}</h1>
-        <iframe width="560" height="315"  src="https://www.youtube.com/watch?v=5KSVsMv_7sQY" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+        <h1>{props.location.Props.name}</h1>
+        <iframe width="560" height="315"  src={props.location.Props.url} title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
         </div>
     )
 }
